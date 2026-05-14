@@ -15,7 +15,7 @@
         <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Obchodní podmínky</a>
         <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Regulatorní info</a>
         <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Cookies</a>
-        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="/pages/contact.php">Kontakt</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="<?= BASE_URL ?>/pages/contact">Kontakt</a>
       </div>
       <div class="flex gap-stack-md mt-stack-lg">
         <span class="material-symbols-outlined text-secondary-fixed cursor-pointer hover:opacity-80">lock_open</span>

@@ -10,19 +10,19 @@
  */
 
 $navItems = [
-    'nase-sluzby'    => ['label' => 'Naše služby',    'href' => '/'],
-    'sprava-majetku' => ['label' => 'Správa majetku', 'href' => '/pages/investment-asset-management.php'],
+    'nase-sluzby'    => ['label' => 'Naše služby',    'href' => BASE_URL . '/'],
+    'sprava-majetku' => ['label' => 'Správa majetku', 'href' => BASE_URL . '/pages/investment-asset-management'],
     'vzdelavani'     => ['label' => 'Vzdělávání',     'href' => '#'],
     'o-nas'          => ['label' => 'O nás',          'href' => '#'],
     'kariera'        => ['label' => 'Kariéra',        'href' => '#'],
-    'kontakt'        => ['label' => 'Kontakt',        'href' => '/pages/contact.php'],
+    'kontakt'        => ['label' => 'Kontakt',        'href' => BASE_URL . '/pages/contact'],
 ];
 
 $activePage = $activePage ?? '';
 ?>
 <header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30">
   <div class="max-w-[1280px] mx-auto flex justify-between items-center px-gutter h-20">
-    <a class="font-headline-md text-headline-md font-normal tracking-tighter text-primary no-underline" href="/">
+    <a class="font-headline-md text-headline-md font-normal tracking-tighter text-primary no-underline" href="<?= BASE_URL ?>/">
       AURELIUS PRIVATE
     </a>
     <nav class="hidden md:flex items-center gap-stack-lg">

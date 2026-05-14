@@ -1,0 +1,11 @@
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Serve existing files and directories as-is
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Append .php extension for clean URLs (e.g. /pages/contact → /pages/contact.php)
+RewriteRule ^(.+?)/?$ $1.php [L]

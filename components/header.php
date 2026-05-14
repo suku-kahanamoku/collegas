@@ -1,3 +1,13 @@
+<?php
+// Detect project base URL – works regardless of which subfolder the project lives in
+if (!defined('BASE_URL')) {
+    $__dir = str_replace('\\', '/', dirname($_SERVER['SCRIPT_NAME']));
+    if (basename($__dir) === 'pages') {
+        $__dir = dirname($__dir);
+    }
+    define('BASE_URL', rtrim($__dir === '.' ? '' : $__dir, '/'));
+}
+?>
 <!DOCTYPE html>
 <html class="light" lang="cs">
 <head>
