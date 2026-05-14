@@ -29,12 +29,12 @@ $activePage = $activePage ?? '';
       <?php foreach ($navItems as $key => $item): ?>
         <?php if ($key === $activePage): ?>
           <a
-            class="font-body-md text-body-md tracking-wider uppercase text-secondary border-b-2 border-secondary pb-1 transition-colors duration-300"
+            class="font-body-md text-body-md tracking-wider uppercase whitespace-nowrap text-secondary border-b-2 border-secondary pb-1 transition-colors duration-300"
             href="<?= htmlspecialchars($item['href']) ?>"
           ><?= htmlspecialchars($item['label']) ?></a>
         <?php else: ?>
           <a
-            class="font-body-md text-body-md tracking-wider uppercase text-on-surface hover:text-secondary transition-colors duration-300"
+            class="font-body-md text-body-md tracking-wider uppercase whitespace-nowrap text-on-surface hover:text-secondary transition-colors duration-300"
             href="<?= htmlspecialchars($item['href']) ?>"
           ><?= htmlspecialchars($item['label']) ?></a>
         <?php endif; ?>
