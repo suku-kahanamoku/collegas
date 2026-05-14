@@ -39,7 +39,7 @@ include 'components/main-menu.php';
   <!-- Finanční plán Section -->
   <section class="py-section-gap bg-surface-container-lowest">
     <div class="max-w-[1280px] mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-section-gap items-center">
-      <div class="relative">
+      <div class="relative order-2 md:order-1">
         <img
           class="w-full aspect-square object-cover shadow-sm"
           alt="Zkušený finanční poradce v profesionálním prostředí – důvěra a odbornost"
@@ -50,7 +50,7 @@ include 'components/main-menu.php';
           <span class="font-label-caps uppercase tracking-widest">let zkušeností</span>
         </div>
       </div>
-      <div class="space-y-stack-md">
+      <div class="space-y-stack-md order-1 md:order-2">
         <h2 class="font-headline-lg text-headline-lg text-primary">Finanční plán</h2>
         <p class="font-body-md text-body-md text-on-surface-variant">
           Finanční plán je nástroj, který dává vašim penězům jasný směr a smysl. Nevychází jen z čísel, ale především

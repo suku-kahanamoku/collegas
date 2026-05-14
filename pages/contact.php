@@ -23,23 +23,48 @@ include '../components/main-menu.php';
     <div class="bg-surface-container-lowest p-stack-lg lg:p-16 border-l border-t border-b border-outline-variant/30">
       <div class="space-y-stack-lg mb-stack-lg">
         <div>
-          <span class="font-label-caps text-secondary block mb-stack-sm uppercase">Adresa kanceláře</span>
-          <h2 class="font-headline-md text-headline-md text-primary mb-base">Hlavní kancelář</h2>
-          <p class="font-body-lg text-body-lg text-on-surface-variant">
-            48 Berkeley Square, Mayfair<br />
-            London, W1J 5AX<br />
-            United Kingdom
-          </p>
+          <span class="font-label-caps text-secondary block mb-stack-sm uppercase">Identifikace společnosti</span>
+          <h2 class="font-headline-md text-headline-md text-primary mb-base">Finanční poradenství</h2>
+          <dl class="space-y-stack-sm">
+            <div class="flex flex-col sm:flex-row sm:gap-4">
+              <dt class="font-label-caps text-secondary uppercase shrink-0 w-40">IČO</dt>
+              <dd class="font-body-md text-body-md text-on-surface">022 62 975</dd>
+            </div>
+            <div class="flex flex-col sm:flex-row sm:gap-4">
+              <dt class="font-label-caps text-secondary uppercase shrink-0 w-40">Spisová značka</dt>
+              <dd class="font-body-md text-body-md text-on-surface-variant">C 80725 vedená u Krajského soudu v Brně</dd>
+            </div>
+            <div class="flex flex-col sm:flex-row sm:gap-4">
+              <dt class="font-label-caps text-secondary uppercase shrink-0 w-40">Sídlo</dt>
+              <dd class="font-body-md text-body-md text-on-surface-variant">Pražákova 1008/69, Brno-město, 639 00 Brno</dd>
+            </div>
+          </dl>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
-          <div>
-            <span class="font-label-caps text-secondary block mb-base uppercase">Přímý kontakt</span>
-            <p class="font-body-md text-body-md text-on-surface font-semibold">+44 (0) 20 7946 0123</p>
-          </div>
-          <div>
-            <span class="font-label-caps text-secondary block mb-base uppercase">E-mail</span>
-            <p class="font-body-md text-body-md text-on-surface font-semibold">advisory@aureliusprivate.com</p>
-          </div>
+        <div>
+          <span class="font-label-caps text-secondary block mb-stack-sm uppercase">Provozovny</span>
+          <ul class="space-y-stack-sm">
+            <li class="flex gap-3 items-start">
+              <span class="material-symbols-outlined text-secondary text-base mt-0.5 shrink-0">location_on</span>
+              <div>
+                <p class="font-body-md text-body-md text-on-surface font-semibold">Centrála</p>
+                <p class="font-body-md text-body-md text-on-surface-variant">AZ TOWER, 11. patro, Pražákova 1008/69, 639 00 Brno</p>
+              </div>
+            </li>
+            <li class="flex gap-3 items-start">
+              <span class="material-symbols-outlined text-secondary text-base mt-0.5 shrink-0">location_on</span>
+              <div>
+                <p class="font-body-md text-body-md text-on-surface font-semibold">Kancelář Kroměříž</p>
+                <p class="font-body-md text-body-md text-on-surface-variant">Tovačovského 2784/24, Kroměříž</p>
+              </div>
+            </li>
+            <li class="flex gap-3 items-start">
+              <span class="material-symbols-outlined text-secondary text-base mt-0.5 shrink-0">location_on</span>
+              <div>
+                <p class="font-body-md text-body-md text-on-surface font-semibold">Kancelář Břeclav</p>
+                <p class="font-body-md text-body-md text-on-surface-variant">nám. T. G. Masaryka 302/8, Břeclav</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
       <!-- Mapa -->
@@ -47,8 +72,7 @@ include '../components/main-menu.php';
         <img
           class="w-full h-full object-cover map-container"
           alt="Mapa lokace kanceláře – čtvrť Mayfair, Londýn"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzq1xi-LrxBGgAOlUUWsEFi_-Va0u2-g8Pg117jQnZrBQB0-RGR9r7RkieGawy1vegyxxea0UAPVymcqUUndqydpyFhVU2iJ0-WlFscTvipBVNiVcTjo4-1oRxwh-Ps1l_AwnUrVTAB5jH6RMQqY2DZFLl4li3SQIEWWGzvyGjb5cXjXl9h8LYlmjAAcCxNnqGBKkfot4xShX2-wYEhnQd1ldyYJL-495Bl6OlF1JKhJNcGh1Wxu3lfRtzsITdijoIm8aQjWKbGyQ"
-        />
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzq1xi-LrxBGgAOlUUWsEFi_-Va0u2-g8Pg117jQnZrBQB0-RGR9r7RkieGawy1vegyxxea0UAPVymcqUUndqydpyFhVU2iJ0-WlFscTvipBVNiVcTjo4-1oRxwh-Ps1l_AwnUrVTAB5jH6RMQqY2DZFLl4li3SQIEWWGzvyGjb5cXjXl9h8LYlmjAAcCxNnqGBKkfot4xShX2-wYEhnQd1ldyYJL-495Bl6OlF1JKhJNcGh1Wxu3lfRtzsITdijoIm8aQjWKbGyQ" />
         <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
           <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-xl border-4 border-white">
             <span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">location_on</span>
@@ -74,8 +98,7 @@ include '../components/main-menu.php';
               class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors placeholder:text-outline"
               placeholder="Jan Novák"
               type="text"
-              name="name"
-            />
+              name="name" />
           </div>
           <div>
             <label class="font-label-caps text-on-primary-container block mb-base uppercase">E-mailová adresa</label>
@@ -83,8 +106,7 @@ include '../components/main-menu.php';
               class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors placeholder:text-outline"
               placeholder="jan.novak@email.cz"
               type="email"
-              name="email"
-            />
+              name="email" />
           </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
@@ -92,8 +114,7 @@ include '../components/main-menu.php';
             <label class="font-label-caps text-on-primary-container block mb-base uppercase">Oblast zájmu</label>
             <select
               class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors appearance-none cursor-pointer"
-              name="interest"
-            >
+              name="interest">
               <option class="bg-primary">Finanční audit</option>
               <option class="bg-primary">Finanční plán</option>
               <option class="bg-primary">Péče o investiční majetek</option>
@@ -104,8 +125,7 @@ include '../components/main-menu.php';
             <label class="font-label-caps text-on-primary-container block mb-base uppercase">Velikost portfolia</label>
             <select
               class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors appearance-none cursor-pointer"
-              name="portfolio"
-            >
+              name="portfolio">
               <option class="bg-primary">5–10 mil. Kč</option>
               <option class="bg-primary">10–50 mil. Kč</option>
               <option class="bg-primary">50 mil. Kč a více</option>
@@ -118,14 +138,12 @@ include '../components/main-menu.php';
             class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors placeholder:text-outline resize-none"
             placeholder="Stručně popište, s čím Vám můžeme pomoci..."
             rows="4"
-            name="message"
-          ></textarea>
+            name="message"></textarea>
         </div>
         <div class="pt-stack-md">
           <button
             class="w-full md:w-auto px-stack-lg py-stack-sm bg-secondary-fixed text-on-secondary-fixed font-label-caps uppercase tracking-widest hover:bg-secondary-fixed/90 transition-all flex items-center justify-center gap-base"
-            type="submit"
-          >
+            type="submit">
             Odeslat poptávku
             <span class="material-symbols-outlined text-sm">arrow_forward</span>
           </button>
