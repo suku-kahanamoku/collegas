@@ -1,7 +1,7 @@
 <footer class="bg-primary text-on-primary w-full py-stack-lg border-t border-primary-container">
   <div class="max-w-[1280px] mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-stack-md">
     <div class="space-y-stack-sm">
-      <div class="font-headline-md text-headline-md text-on-primary">AURELIUS PRIVATE</div>
+      <img src="<?= BASE_URL ?>/img/logo.svg" alt="Aurelius Private" class="h-10 w-auto brightness-0 invert" />
       <p class="font-body-md text-on-primary-container max-w-sm">
         Finanční poradenství s přehledem a jistotou. Nezávislost, transparentnost a dlouhodobé partnerství.
       </p>
