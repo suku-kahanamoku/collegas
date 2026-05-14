@@ -10,7 +10,7 @@
  */
 
 $navItems = [
-    'nase-sluzby'    => ['label' => 'Naše služby',    'href' => '/pages/independent-financial-audit.php'],
+    'nase-sluzby'    => ['label' => 'Naše služby',    'href' => '/'],
     'sprava-majetku' => ['label' => 'Správa majetku', 'href' => '/pages/investment-asset-management.php'],
     'vzdelavani'     => ['label' => 'Vzdělávání',     'href' => '#'],
     'o-nas'          => ['label' => 'O nás',          'href' => '#'],

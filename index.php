@@ -2,10 +2,10 @@
 $title       = 'Nezávislý finanční audit | Finanční poradenství';
 $description = 'Nezávislý finanční audit je první krok k tomu, abyste ve svých financích měli skutečný přehled a jistotu. Projdeme vaše smlouvy, nastavení i celkovou strukturu financí.';
 $keywords    = 'finanční audit, nezávislý audit, finanční poradenství, přehled financí';
-include '../components/header.php';
+include 'components/header.php';
 
 $activePage = 'nase-sluzby';
-include '../components/main-menu.php';
+include 'components/main-menu.php';
 ?>
 
 <main>
@@ -202,4 +202,4 @@ include '../components/main-menu.php';
   </section>
 </main>
 
-<?php include '../components/footer.php'; ?>
+<?php include 'components/footer.php'; ?>
