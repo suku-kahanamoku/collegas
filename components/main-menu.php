@@ -40,7 +40,7 @@ $activePage = $activePage ?? '';
         <?php endif; ?>
       <?php endforeach; ?>
     </nav>
-    <button class="bg-primary text-on-primary px-stack-md py-stack-sm font-label-caps uppercase tracking-widest hover:bg-primary-container transition-colors">
+    <button class="ml-stack-lg bg-primary text-on-primary px-4 py-stack-sm font-label-sm text-sm uppercase tracking-widest whitespace-nowrap hover:bg-primary-container transition-colors">
       Klientská zóna
     </button>
   </div>
