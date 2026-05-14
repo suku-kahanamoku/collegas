@@ -38,24 +38,25 @@ include '../components/main-menu.php';
               <div class="order-2 md:order-1">
                 <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Péče o investiční majetek</h2>
                 <p class="text-on-surface-variant mb-stack-md">
-                  Vaše investice průběžně analyzujeme, vyhodnocujeme jejich výkonnost a aktivně je přizpůsobujeme
-                  aktuální situaci na trzích i vašim individuálním potřebám. Každé rozhodnutí má své opodstatnění a
-                  zapadá do širší strategie, která směřuje k dlouhodobému růstu a stabilitě.
+                  Péče o investiční majetek vnímáme jako dlouhodobé partnerství, jehož cílem je chránit a rozvíjet váš
+                  kapitál v souladu s vašimi ambicemi i životním stylem. Nejde pouze o výběr investic, ale o citlivé a
+                  kontinuální řízení celého portfolia s ohledem na vaše priority, časový horizont i toleranci k riziku.
                 </p>
-                <ul class="space-y-stack-sm">
-                  <li class="flex items-center gap-stack-sm">
-                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-                    <span class="font-body-md">Průběžná analýza a vyhodnocení výkonnosti</span>
-                  </li>
-                  <li class="flex items-center gap-stack-sm">
-                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-                    <span class="font-body-md">Vyvážené portfolio a diverzifikace</span>
-                  </li>
-                  <li class="flex items-center gap-stack-sm">
-                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-                    <span class="font-body-md">Ochrana majetku v obdobích volatility</span>
-                  </li>
-                </ul>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Vaše investice průběžně analyzujeme, vyhodnocujeme jejich výkonnost a aktivně je přizpůsobujeme
+                  aktuální situaci na trzích i vašim individuálním potřebám. Dbáme na vyváženost portfolia, diverzifikaci
+                  i ochranu majetku v obdobích volatility. Každé rozhodnutí má své opodstatnění a zapadá do širší
+                  strategie, která směřuje k dlouhodobému růstu a stabilitě.
+                </p>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Díky tomuto přístupu získáváte nejen výkonnější správu majetku, ale především klid a jistotu, že se o
+                  vaše finance stará někdo, kdo rozumí souvislostem a přemýšlí v širším kontextu. Vaše investice tak
+                  nejsou jen „uložené", ale řízené s jasným záměrem a důrazem na dlouhodobou hodnotu.
+                </p>
+                <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
+                  Svěřte kapitál do individuální péče
+                  <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+                </a>
               </div>
               <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
                 <img
@@ -80,18 +81,61 @@ include '../components/main-menu.php';
                 <p class="text-on-surface-variant mb-stack-md">
                   Financování často začíná u jednoho z nejdůležitějších rozhodnutí v životě – vlastního bydlení. Ať už
                   kupujete první nemovitost, rekonstruujete nebo řešíte změnu současného úvěru, cílem je nastavit
-                  financování tak, aby pro vás bylo dlouhodobě zvládnutelné, přehledné a bezpečné.
+                  financování tak, aby pro vás bylo dlouhodobě zvládnutelné, přehledné a bezpečné. Pomáháme vám
+                  zorientovat se v možnostech, vybrat správnou variantu a projít celým procesem bez zbytečného
+                  stresu a nejistoty.
                 </p>
-                <div class="space-y-stack-md">
-                  <div class="border-l-2 border-secondary pl-stack-md">
-                    <h4 class="font-label-caps text-secondary uppercase mb-1">Bydlení a rekonstrukce</h4>
-                    <p class="text-body-md text-on-surface">Pomáháme zorientovat se v možnostech a projít celým procesem bez zbytečného stresu a nejistoty.</p>
-                  </div>
-                  <div class="border-l-2 border-secondary pl-stack-md">
-                    <h4 class="font-label-caps text-secondary uppercase mb-1">Finanční páka</h4>
-                    <p class="text-body-md text-on-surface">Správně nastavené využití bankovního kapitálu může výrazně zvýšit efektivitu práce s vašimi vlastními prostředky.</p>
-                  </div>
-                </div>
+                <p class="text-on-surface-variant mb-stack-md">
+                  V širším pohledu ale financování není jen o potřebě, ale i o příležitosti. Správně nastavené využití
+                  bankovního kapitálu může výrazně zvýšit efektivitu práce s vašimi vlastními prostředky. Díky finanční
+                  páce je možné urychlit budování majetku, zachovat si likviditu a současně využívat výhod dostupného
+                  kapitálu. Klíčem je správná struktura – kdy dává smysl využít cizí zdroje a kdy naopak pracovat s
+                  vlastním kapitálem.
+                </p>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Výsledkem je financování, které odpovídá vaší aktuální situaci, ale zároveň vás neomezuje do
+                  budoucna. Neřešíme jen dnešní potřebu, ale nastavujeme řešení, které vám umožní růst, reagovat na
+                  nové příležitosti a mít své finance dlouhodobě pod kontrolou.
+                </p>
+                <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
+                  Nechte si navrhnout financování, které Vás nepoloží
+                  <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Sekce 3 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
+              <div class="order-2 md:order-1">
+                <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Energetická optimalizace</h2>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Energetická optimalizace není jen o změně dodavatele, ale o celkovém řízení toho, jak a za kolik
+                  energii využíváte. V praxi totiž největší úspory často nevznikají jedním rozhodnutím, ale kombinací
+                  správně nastavených smluv, tarifů, spotřeby a technického řešení. Bez komplexního pohledu tak
+                  můžete dlouhodobě přicházet o peníze, aniž by to bylo na první pohled zřejmé.
+                </p>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Díváme se na energie jako na celek – analyzujeme vaši spotřebu, smluvní podmínky, distribuční sazby
+                  i způsob využívání energie v domácnosti nebo firmě. Identifikujeme slabá místa, navrhujeme
+                  efektivnější nastavení a v případě potřeby i úpravy, které vedou ke snížení nákladů. Součástí může
+                  být i doporučení vhodných technologických řešení nebo změn v chování, které mají reálný dopad na
+                  výdaje.
+                </p>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Výsledkem není jen jednorázová úspora, ale dlouhodobě udržitelný systém, který vám dává kontrolu
+                  nad náklady a umožňuje reagovat na vývoj trhu. Energie tak přestávají být neřízeným výdajem a
+                  stávají se oblastí, kterou máte pod kontrolou.
+                </p>
+                <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
+                  Začněte své energie řídit, ne jen platit
+                  <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+                </a>
+              </div>
+              <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+                <img
+                  class="w-full h-full object-cover"
+                  alt="Energetická optimalizace – správa energií a snižování nákladů"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkLhmWdIf2whLoVD0PMyP8j-OKyRvbM6LThjHKYL0p0B9Dg3QDm3AqOOj0EtlZctuD3sMBIydq0yd9apmlmHmmUTYg0WQEKMBtbFZ1lAqa8fzar3N3gI7xxrWh92jqO2YR_j6CWuG8_8JhTKg8pRbVs5cDdGWogJeWeklItT5Ii_jEYBZln9CVY3yqhDBcxP0bjUoUkWddpxaPKcxCTNGru0I4OtG2yu9qRrO2YV0JbO2RpnPjNdT559GInhriBnKEom-2jp0Zp5A" />
               </div>
             </div>
           </div>

@@ -7,16 +7,17 @@
  *   $activePage (string) – klíč aktivní stránky
  *
  * Dostupné klíče:
- *   nase-sluzby | sprava-majetku | vzdelavani | o-nas | kariera | kontakt
+ *   nase-sluzby | sprava-majetku | developerske-projekty | vzdelavani | o-nas | kariera | kontakt
  */
 
 $navItems = [
-  'nase-sluzby'    => ['label' => 'Naše služby',    'href' => BASE_URL . '/'],
-  'sprava-majetku' => ['label' => 'Správa majetku', 'href' => BASE_URL . '/pages/investment-asset-management'],
-  'vzdelavani'     => ['label' => 'Vzdělávání',     'href' => '#'],
-  'o-nas'          => ['label' => 'O nás',          'href' => '#'],
-  'kariera'        => ['label' => 'Kariéra',        'href' => '#'],
-  'kontakt'        => ['label' => 'Kontakt',        'href' => BASE_URL . '/pages/contact'],
+  'nase-sluzby'            => ['label' => 'Naše služby',           'href' => BASE_URL . '/'],
+  'sprava-majetku'         => ['label' => 'Správa majetku',        'href' => BASE_URL . '/pages/investment-asset-management'],
+  'developerske-projekty'  => ['label' => 'Developerské projekty', 'href' => BASE_URL . '/pages/development-projects'],
+  'vzdelavani'             => ['label' => 'Vzdělávání',            'href' => '#'],
+  'o-nas'                  => ['label' => 'O nás',                 'href' => '#'],
+  'kariera'                => ['label' => 'Kariéra',               'href' => '#'],
+  'kontakt'                => ['label' => 'Kontakt',               'href' => BASE_URL . '/pages/contact'],
 ];
 
 $activePage = $activePage ?? '';

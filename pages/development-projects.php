@@ -4,7 +4,7 @@ $description = 'Developerské projekty vnímáme jako komplexní proces, kde se 
 $keywords    = 'developerské projekty, investiční příležitosti, nemovitosti, kapitálové investice';
 include '../components/header.php';
 
-$activePage = 'sprava-majetku';
+$activePage = 'developerske-projekty';
 include '../components/main-menu.php';
 ?>
 
@@ -38,24 +38,26 @@ include '../components/main-menu.php';
               <div class="order-2 md:order-1">
                 <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Developerské projekty</h2>
                 <p class="text-on-surface-variant mb-stack-md">
-                  Podílíme se na celém procesu – od analýzy příležitosti, návrhu projektu a ekonomického modelu až po
-                  jeho realizaci a následný prodej. Díky znalosti trhu dokážeme správně nastavit produkt, cenu i
-                  načasování tak, aby projekt dával smysl nejen na papíře, ale i v praxi.
+                  Developerské projekty vnímáme jako komplexní proces, kde se propojuje vize, kapitál, trh i správné
+                  načasování. Nejde jen o samotnou výstavbu, ale o vytvoření projektu, který má dlouhodobou
+                  hodnotu – pro investora i pro budoucí uživatele. Každý krok, od výběru lokality až po finální prodej,
+                  má zásadní vliv na celkový výsledek.
                 </p>
-                <ul class="space-y-stack-sm">
-                  <li class="flex items-center gap-stack-sm">
-                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-                    <span class="font-body-md">Analýza příležitosti a ekonomický model</span>
-                  </li>
-                  <li class="flex items-center gap-stack-sm">
-                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-                    <span class="font-body-md">Koordinace projektu a financování</span>
-                  </li>
-                  <li class="flex items-center gap-stack-sm">
-                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
-                    <span class="font-body-md">Nastavení prodejní strategie a realizace</span>
-                  </li>
-                </ul>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Podílíme se na celém procesu – od analýzy příležitosti, návrhu projektu a ekonomického modelu až
+                  po jeho realizaci a následný prodej. Zajišťujeme přípravu projektu, koordinaci jednotlivých profesí,
+                  financování i nastavení prodejní strategie. Díky znalosti trhu dokážeme správně nastavit produkt,
+                  cenu i načasování tak, aby projekt dával smysl nejen na papíře, ale i v praxi.
+                </p>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Výsledkem jsou projekty, které jsou funkční, ekonomicky udržitelné a atraktivní pro trh. Pro investory
+                  to znamená jasně řízený proces a kontrolu nad kapitálem, pro klienty pak kvalitní a promyšlené
+                  bydlení či investiční příležitost.
+                </p>
+                <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
+                  Zapojte se do developerských projektů
+                  <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+                </a>
               </div>
               <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
                 <img
@@ -78,20 +80,25 @@ include '../components/main-menu.php';
               <div>
                 <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Investiční příležitosti</h2>
                 <p class="text-on-surface-variant mb-stack-md">
-                  Aktivně vyhledáváme projekty a investice napříč oblastmi, jako jsou nemovitosti, developerské záměry
-                  nebo další kapitálové příležitosti. Každou z nich detailně analyzujeme – z pohledu návratnosti,
-                  struktury, rizik i reálného potenciálu.
+                  Investiční příležitosti nevznikají každý den – a ještě méně těch, které dávají skutečný smysl v širším
+                  kontextu vašeho portfolia. Naším cílem není nabídnout „cokoliv, co zrovna funguje", ale vybírat a
+                  vytvářet příležitosti, které obstojí z pohledu výnosu, rizika i dlouhodobé strategie.
                 </p>
-                <div class="space-y-stack-md">
-                  <div class="border-l-2 border-secondary pl-stack-md">
-                    <h4 class="font-label-caps text-secondary uppercase mb-1">Analýza a výběr příležitostí</h4>
-                    <p class="text-body-md text-on-surface">Každou příležitost detailně analyzujeme z pohledu návratnosti, struktury, rizik i reálného potenciálu.</p>
-                  </div>
-                  <div class="border-l-2 border-secondary pl-stack-md">
-                    <h4 class="font-label-caps text-secondary uppercase mb-1">Řízený investiční proces</h4>
-                    <p class="text-body-md text-on-surface">Přístup k investicím, ke kterým se běžný investor nedostane, v souladu s vaší celkovou strategií.</p>
-                  </div>
-                </div>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Aktivně vyhledáváme projekty a investice napříč oblastmi, jako jsou nemovitosti, developerské
+                  záměry nebo další kapitálové příležitosti. Každou z nich detailně analyzujeme – z pohledu návratnosti,
+                  struktury, rizik i reálného potenciálu. Díky tomu vám předkládáme pouze ty příležitosti, za kterými si
+                  dokážeme stát a které dávají smysl nejen na papíře, ale i v praxi.
+                </p>
+                <p class="text-on-surface-variant mb-stack-md">
+                  Výsledkem je přístup k investicím, ke kterým se běžný investor často nedostane, a zároveň jistota, že
+                  každé rozhodnutí zapadá do vaší celkové strategie. Investování tak přestává být o náhodě a stává se
+                  řízeným procesem s jasným cílem – dlouhodobě růst a chránit váš kapitál.
+                </p>
+                <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
+                  Získejte přístup k investičním příležitostem
+                  <span class="material-symbols-outlined text-body-md">arrow_forward</span>
+                </a>
               </div>
             </div>
           </div>
