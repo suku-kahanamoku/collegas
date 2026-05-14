@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Kontakt | Finanční poradenství</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Work+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed": "#261900",
+            "on-primary": "#ffffff",
+            "surface-container-highest": "#e2e2e2",
+            "on-surface": "#1a1c1c",
+            "inverse-surface": "#2f3131",
+            "secondary": "#745b26",
+            "on-error": "#ffffff",
+            "primary-container": "#1d3f33",
+            "on-secondary-container": "#795f29",
+            "surface-bright": "#f9f9f9",
+            "inverse-primary": "#aacfbe",
+            "on-primary-fixed-variant": "#2b4d41",
+            "outline": "#717974",
+            "error": "#ba1a1a",
+            "on-tertiary-container": "#a4a2a2",
+            "secondary-fixed": "#ffdea3",
+            "tertiary-container": "#393939",
+            "on-tertiary": "#ffffff",
+            "on-secondary": "#ffffff",
+            "on-secondary-fixed-variant": "#5a4310",
+            "on-background": "#1a1c1c",
+            "surface-dim": "#dadada",
+            "on-tertiary-fixed-variant": "#474746",
+            "surface-container-low": "#f3f3f3",
+            "on-primary-container": "#86aa9b",
+            "surface": "#f9f9f9",
+            "tertiary-fixed": "#e5e2e1",
+            "outline-variant": "#c1c8c3",
+            "primary": "#04291e",
+            "surface-container-lowest": "#ffffff",
+            "surface-tint": "#436558",
+            "surface-container": "#eeeeee",
+            "surface-variant": "#e2e2e2",
+            "tertiary": "#242423",
+            "primary-fixed-dim": "#aacfbe",
+            "secondary-container": "#ffdb99",
+            "primary-fixed": "#c5ebda",
+            "background": "#f9f9f9",
+            "on-error-container": "#93000a",
+            "secondary-fixed-dim": "#e4c283",
+            "inverse-on-surface": "#f1f1f1",
+            "on-surface-variant": "#414845",
+            "error-container": "#ffdad6",
+            "tertiary-fixed-dim": "#c8c6c5",
+            "on-tertiary-fixed": "#1c1b1b",
+            "surface-container-high": "#e8e8e8",
+            "on-primary-fixed": "#002117"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin-mobile": "20px",
+            "stack-sm": "12px",
+            "container-max": "1280px",
+            "gutter": "32px",
+            "base": "8px",
+            "section-gap": "120px",
+            "stack-lg": "48px",
+            "stack-md": "24px"
+          },
+          "fontFamily": {
+            "headline-md": ["Noto Serif"],
+            "display-xl": ["Noto Serif"],
+            "headline-lg": ["Noto Serif"],
+            "body-lg": ["Work Sans"],
+            "body-md": ["Work Sans"],
+            "label-caps": ["Work Sans"]
+          },
+          "fontSize": {
+            "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+            "display-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+            "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "400"}],
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "label-caps": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.1em", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    }
+    .map-container {
+      filter: grayscale(1) contrast(1.1) brightness(0.9);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full bg-surface/90 dark:bg-primary/95 backdrop-blur-md border-b border-outline-variant/30 z-50">
+  <div class="max-w-[1280px] mx-auto flex justify-between items-center px-gutter h-20">
+    <div class="font-headline-md text-headline-md font-normal tracking-tighter text-primary dark:text-on-primary">
+      AURELIUS PRIVATE
+    </div>
+    <div class="hidden md:flex items-center gap-stack-md">
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface dark:text-on-primary-fixed-variant hover:text-secondary transition-colors duration-300" href="#">Naše služby</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface dark:text-on-primary-fixed-variant hover:text-secondary transition-colors duration-300" href="#">Správa majetku</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface dark:text-on-primary-fixed-variant hover:text-secondary transition-colors duration-300" href="#">Vzdělávání</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface dark:text-on-primary-fixed-variant hover:text-secondary transition-colors duration-300" href="#">O nás</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface dark:text-on-primary-fixed-variant hover:text-secondary transition-colors duration-300" href="#">Kariéra</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-secondary border-b-2 border-secondary pb-1" href="#">Kontakt</a>
+    </div>
+    <button class="bg-primary text-on-primary px-stack-md py-stack-sm font-label-caps uppercase tracking-widest hover:opacity-80 transition-opacity">
+      Klientská zóna
+    </button>
+  </div>
+</nav>
+<main class="pt-20">
+  <!-- Hero Title Section -->
+  <section class="max-w-[1280px] mx-auto px-gutter pt-stack-lg pb-stack-md">
+    <h1 class="font-display-xl text-display-xl text-primary mb-base">Spojte se s námi</h1>
+    <p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Každá dobrá spolupráce začíná rozhovorem. Ozvěte se nám a společně najdeme ten správný první krok.</p>
+  </section>
+  <!-- Two-Column Content -->
+  <section class="max-w-[1280px] mx-auto px-gutter grid grid-cols-1 lg:grid-cols-2 gap-0 mb-section-gap">
+    <!-- Left Side: Contact Details & Map -->
+    <div class="bg-surface-container-lowest p-stack-lg lg:p-16 border-l border-t border-b border-outline-variant/30">
+      <div class="space-y-stack-lg mb-stack-lg">
+        <div>
+          <span class="font-label-caps text-label-caps text-secondary block mb-stack-sm uppercase">Adresa kanceláře</span>
+          <h2 class="font-headline-md text-headline-md text-primary mb-base">Hlavní kancelář</h2>
+          <p class="font-body-lg text-body-lg text-on-surface-variant">
+            48 Berkeley Square, Mayfair<br/>
+            London, W1J 5AX<br/>
+            United Kingdom
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+          <div>
+            <span class="font-label-caps text-label-caps text-secondary block mb-base uppercase">Přímý kontakt</span>
+            <p class="font-body-md text-body-md text-on-surface font-semibold">+44 (0) 20 7946 0123</p>
+          </div>
+          <div>
+            <span class="font-label-caps text-label-caps text-secondary block mb-base uppercase">E-mail</span>
+            <p class="font-body-md text-body-md text-on-surface font-semibold">advisory@aureliusprivate.com</p>
+          </div>
+        </div>
+      </div>
+      <!-- Map Integration -->
+      <div class="relative w-full aspect-video lg:aspect-[4/3] overflow-hidden rounded-sm bg-surface-container shadow-sm border border-outline-variant/20">
+        <img class="w-full h-full object-cover map-container" alt="Mapa lokace kanceláře – čtvrť Mayfair, Londýn" data-alt="A sophisticated, high-end digital map rendering of the Mayfair district in London, styled with a minimalist corporate aesthetic. The map uses a monochrome palette of soft grays and charcoal blacks, featuring clean architectural lines and elegant sans-serif typography for street names. Soft, diffuse lighting suggests a professional, luxury financial environment, focusing on the prestigious Berkeley Square area." data-location="London" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzq1xi-LrxBGgAOlUUWsEFi_-Va0u2-g8Pg117jQnZrBQB0-RGR9r7RkieGawy1vegyxxea0UAPVymcqUUndqydpyFhVU2iJ0-WlFscTvipBVNiVcTjo4-1oRxwh-Ps1l_AwnUrVTAB5jH6RMQqY2DZFLl4li3SQIEWWGzvyGjb5cXjXl9h8LYlmjAAcCxNnqGBKkfot4xShX2-wYEhnQd1ldyYJL-495Bl6OlF1JKhJNcGh1Wxu3lfRtzsITdijoIm8aQjWKbGyQ"/>
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+          <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center shadow-xl border-4 border-white">
+            <span class="material-symbols-outlined text-white" style="font-variation-settings: 'FILL' 1;">location_on</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Right Side: Dark Elegant Form -->
+    <div class="bg-primary p-stack-lg lg:p-16 flex flex-col justify-center">
+      <div class="mb-stack-lg">
+        <span class="font-label-caps text-label-caps text-secondary-fixed block mb-stack-sm uppercase">Sjednejte konzultaci</span>
+        <h2 class="font-headline-md text-headline-md text-on-primary">Nezávazná konzultace zdarma</h2>
+        <p class="font-body-md text-body-md text-on-primary-container mt-base">Vyplňte formulář a my se vám ozveme pro domluvení termínu osobního setkání.</p>
+      </div>
+      <form class="space-y-stack-md">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+          <div class="group">
+            <label class="font-label-caps text-label-caps text-on-primary-container block mb-base uppercase">Jméno a příjmení</label>
+            <input class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors placeholder:text-outline" placeholder="Jan Novák" type="text"/>
+          </div>
+          <div class="group">
+            <label class="font-label-caps text-label-caps text-on-primary-container block mb-base uppercase">E-mailová adresa</label>
+            <input class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors placeholder:text-outline" placeholder="jan.novak@email.cz" type="email"/>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+          <div class="group">
+            <label class="font-label-caps text-label-caps text-on-primary-container block mb-base uppercase">Oblast zájmu</label>
+            <select class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors appearance-none cursor-pointer">
+              <option class="bg-primary">Finanční audit</option>
+              <option class="bg-primary">Finanční plán</option>
+              <option class="bg-primary">Péče o investiční majetek</option>
+              <option class="bg-primary">Zajištění rizik</option>
+            </select>
+          </div>
+          <div class="group">
+            <label class="font-label-caps text-label-caps text-on-primary-container block mb-base uppercase">Velikost portfolia</label>
+            <select class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors appearance-none cursor-pointer">
+              <option class="bg-primary">5–10 mil. Kč</option>
+              <option class="bg-primary">10–50 mil. Kč</option>
+              <option class="bg-primary">50 mil. Kč a více</option>
+            </select>
+          </div>
+        </div>
+        <div class="group">
+          <label class="font-label-caps text-label-caps text-on-primary-container block mb-base uppercase">Popis situace</label>
+          <textarea class="w-full bg-transparent border-0 border-b border-outline-variant/40 text-on-primary py-base focus:ring-0 focus:border-secondary-fixed transition-colors placeholder:text-outline resize-none" placeholder="Stručně popište, s čím Vám můžeme pomoci..." rows="4"></textarea>
+        </div>
+        <div class="pt-stack-md">
+          <button class="w-full md:w-auto px-stack-lg py-stack-sm bg-secondary-fixed text-on-secondary-fixed font-label-caps uppercase tracking-widest hover:bg-secondary-fixed/90 transition-all flex items-center justify-center gap-base" type="submit">
+            Odeslat poptávku
+            <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </button>
+        </div>
+        <p class="font-label-caps text-label-caps text-on-primary-container mt-stack-md opacity-60">
+          * Veškerá komunikace je přísně důvěrná a podléhá zásadám ochrany osobních údajů.
+        </p>
+      </form>
+    </div>
+  </section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary border-t border-primary-container w-full py-stack-lg">
+  <div class="max-w-[1280px] mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+    <div class="flex flex-col gap-stack-md">
+      <div class="font-headline-md text-headline-md text-on-primary">AURELIUS PRIVATE</div>
+      <div class="flex flex-wrap gap-stack-md">
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Ochrana soukromí</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Obchodní podmínky</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Regulatorní info</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Cookies</a>
+        <a class="font-body-md text-body-md text-secondary-fixed font-bold" href="#">Kontakt</a>
+      </div>
+    </div>
+    <div class="flex flex-col justify-end items-start md:items-end">
+      <p class="font-body-md text-body-md text-on-primary-container text-left md:text-right max-w-sm">
+        © 2024 Finanční poradenství. Všechna práva vyhrazena.
+      </p>
+    </div>
+  </div>
+</footer>
+</body></html>

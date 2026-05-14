@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&amp;family=Work+Sans:wght@400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed": "#261900",
+            "on-primary": "#ffffff",
+            "surface-container-highest": "#e2e2e2",
+            "on-surface": "#1a1c1c",
+            "inverse-surface": "#2f3131",
+            "secondary": "#745b26",
+            "on-error": "#ffffff",
+            "primary-container": "#1d3f33",
+            "on-secondary-container": "#795f29",
+            "surface-bright": "#f9f9f9",
+            "inverse-primary": "#aacfbe",
+            "on-primary-fixed-variant": "#2b4d41",
+            "outline": "#717974",
+            "error": "#ba1a1a",
+            "on-tertiary-container": "#a4a2a2",
+            "secondary-fixed": "#ffdea3",
+            "tertiary-container": "#393939",
+            "on-tertiary": "#ffffff",
+            "on-secondary": "#ffffff",
+            "on-secondary-fixed-variant": "#5a4310",
+            "on-background": "#1a1c1c",
+            "surface-dim": "#dadada",
+            "on-tertiary-fixed-variant": "#474746",
+            "surface-container-low": "#f3f3f3",
+            "on-primary-container": "#86aa9b",
+            "surface": "#f9f9f9",
+            "tertiary-fixed": "#e5e2e1",
+            "outline-variant": "#c1c8c3",
+            "primary": "#04291e",
+            "surface-container-lowest": "#ffffff",
+            "surface-tint": "#436558",
+            "surface-container": "#eeeeee",
+            "surface-variant": "#e2e2e2",
+            "tertiary": "#242423",
+            "primary-fixed-dim": "#aacfbe",
+            "secondary-container": "#ffdb99",
+            "primary-fixed": "#c5ebda",
+            "background": "#f9f9f9",
+            "on-error-container": "#93000a",
+            "secondary-fixed-dim": "#e4c283",
+            "inverse-on-surface": "#f1f1f1",
+            "on-surface-variant": "#414845",
+            "error-container": "#ffdad6",
+            "tertiary-fixed-dim": "#c8c6c5",
+            "on-tertiary-fixed": "#1c1b1b",
+            "surface-container-high": "#e8e8e8",
+            "on-primary-fixed": "#002117"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "margin-mobile": "20px",
+            "stack-sm": "12px",
+            "container-max": "1280px",
+            "gutter": "32px",
+            "base": "8px",
+            "section-gap": "120px",
+            "stack-lg": "48px",
+            "stack-md": "24px"
+          },
+          "fontFamily": {
+            "headline-md": ["Noto Serif"],
+            "display-xl": ["Noto Serif"],
+            "headline-lg": ["Noto Serif"],
+            "body-lg": ["Work Sans"],
+            "body-md": ["Work Sans"],
+            "label-caps": ["Work Sans"]
+          },
+          "fontSize": {
+            "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+            "display-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+            "headline-lg": ["40px", {"lineHeight": "1.2", "fontWeight": "400"}],
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "label-caps": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.1em", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+    }
+    .hero-gradient {
+      background: linear-gradient(to bottom, rgba(4, 41, 30, 0.4), rgba(4, 41, 30, 0.7));
+    }
+    body {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body class="font-body-md text-on-surface">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/30">
+  <div class="max-w-[1280px] mx-auto flex justify-between items-center px-gutter h-20">
+    <div class="font-headline-md text-headline-md font-normal tracking-tighter text-primary">AURELIUS PRIVATE</div>
+    <nav class="hidden md:flex items-center gap-stack-lg">
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface hover:text-secondary transition-colors duration-300" href="#">Naše služby</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-secondary border-b-2 border-secondary pb-1 transition-colors duration-300" href="#">Správa majetku</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface hover:text-secondary transition-colors duration-300" href="#">Vzdělávání</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface hover:text-secondary transition-colors duration-300" href="#">O nás</a>
+      <a class="font-body-md text-body-md tracking-wider uppercase text-on-surface hover:text-secondary transition-colors duration-300" href="#">Kariéra</a>
+    </nav>
+    <button class="bg-primary text-on-primary px-stack-md py-stack-sm font-label-caps uppercase tracking-widest hover:opacity-80 transition-opacity">
+      Klientská zóna
+    </button>
+  </div>
+</header>
+<main class="pt-20">
+  <!-- Hero Section -->
+  <section class="relative h-[614px] min-h-[500px] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-cover bg-center" alt="" data-alt="A cinematic, wide-angle landscape shot of a misty mountain range at dawn, reflecting in a perfectly still alpine lake. The lighting is soft and ethereal, using a sophisticated palette of deep forest greens and cool slate grays. The composition is clean and minimalist, evoking a sense of enduring legacy and quiet luxury suitable for a premium wealth management brand." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAVntdIC9G0Z1TSRxOgQATix4drSoAWBzH79eQZq_gfDem_bPLXUv9WdqaHI7GGPKkbjeAWvRdJZmJ3TOlx7MfsYdwNO3-mMULrYzC_PrHm89BqEMh94tit4qPvylW3ton35PCNuTBeX3sCKqFTdK4E9pTS6-D68KSSgO8igbGVUeAm0xUnfm5QgICzD204eGOF7XdP8QmJJY8A_6FSFQWIMDSk6ly68sQLcn9smfvbGCSnh4deEkVPaekvQoDBHf3kguHNvsXw3Q4')"></div>
+    <div class="absolute inset-0 hero-gradient"></div>
+    <div class="relative z-10 max-w-[1280px] mx-auto px-gutter w-full">
+      <span class="font-label-caps text-secondary-fixed mb-stack-sm block">SPRÁVA MAJETKU</span>
+      <h1 class="font-display-xl text-display-xl text-on-primary max-w-2xl">Péče o investiční majetek</h1>
+      <p class="font-body-lg text-body-lg text-on-primary-container max-w-xl mt-stack-md opacity-90">
+        Péče o investiční majetek vnímáme jako dlouhodobé partnerství, jehož cílem je chránit a rozvíjet váš kapitál v souladu s vašimi ambicemi i životním stylem.
+      </p>
+    </div>
+  </section>
+  <!-- Main Content Cluster -->
+  <section class="bg-surface-container-low py-section-gap">
+    <div class="max-w-[1280px] mx-auto px-gutter">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-section-gap">
+        <!-- Content Area -->
+        <div class="lg:col-span-8">
+          <div class="space-y-section-gap">
+            <!-- Section 1: Portfolio Strategy -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
+              <div class="order-2 md:order-1">
+                <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Péče o investiční majetek</h2>
+                <p class="text-on-surface-variant mb-stack-md">Vaše investice průběžně analyzujeme, vyhodnocujeme jejich výkonnost a aktivně je přizpůsobujeme aktuální situaci na trzích i vašim individuálním potřebám. Každé rozhodnutí má své opodstatnění a zapadá do širší strategie, která směřuje k dlouhodobému růstu a stabilitě.</p>
+                <ul class="space-y-stack-sm">
+                  <li class="flex items-center gap-stack-sm">
+                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                    <span class="font-body-md">Průběžná analýza a vyhodnocení výkonnosti</span>
+                  </li>
+                  <li class="flex items-center gap-stack-sm">
+                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                    <span class="font-body-md">Vyvážené portfolio a diverzifikace</span>
+                  </li>
+                  <li class="flex items-center gap-stack-sm">
+                    <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                    <span class="font-body-md">Ochrana majetku v obdobích volatility</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+                <img class="w-full h-full object-cover" alt="Architektonický detail moderní budovy – geometrická přesnost symbolizující stabilitu" data-alt="Close-up architectural detail of a modern skyscrapers steel and glass facade, reflecting a clear blue sky. The image is sharp with high contrast, emphasizing geometric precision and stability. The tones are muted grays and deep greens, maintaining the quiet luxury aesthetic of a modern corporate financial institution." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB3ex9wSUxLroSQvcTshXAvZ2w3G94V2d6wFRbOiptcLcz3J6QFD4QKJh0xcZRH1aH8_o1BtmYaa-hqBft9MNxAHDBS3ZWj5KSGCpeNNpteBpGNiczfb9lwRjBcZGZ6ZDANcCZGqGageYcw_526l3s5HoxiTRMOWSFNrlc_VRcY4qs4w_c3xG-3-O6d_V1cPPSmExzUPcf9AO8USYGNGPdx3erBbS8iK_bswez8QXKPnThvwwiEzrlRe8DlpA_xyXbkFbjDZUZeL8"/>
+              </div>
+            </div>
+            <!-- Section 2: Heritage & Estate -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
+              <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
+                <img class="w-full h-full object-cover" alt="Finanční poradce při konzultaci – odbornost, důvěra a individuální přístup" data-alt="A focused, professional portrait of an advisor in a dark charcoal suit, hands resting on a polished dark wood table. The lighting is soft, directional, and cinematic, creating a mood of trust and expertise. The setting is a minimalist, high-end office with subtle golden accents and blurred greenery in the background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl5N-971h-2cMzRDBs9ym4RemDHszAuUr22mg3Arp1DRL39QEZlfZ5mN82t3Bg0cZQ4npYmdvmzLVNTPrbaaM5Ft983hm9I1zb8Ms5046Cp6N8GSZHBAfC-AfBRm1RZZXnioJjubjrULdrgrEv9Qb54gW981NEKAj_yz4wHLzLZarPAk4sfDoUtwOgx_D7E06zWNkljByjwnvebCoF1dnBg0b7DZmXmTxQor-TFVhVnsv4IQAiIx-arr3BFCGVQWZDFf5r1rJnY1s"/>
+              </div>
+              <div>
+                <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Financování</h2>
+                <p class="text-on-surface-variant mb-stack-md">Financování často začíná u jednoho z nejdůležitějších rozhodnutí v životě – vlastního bydlení. Ať už kupujete první nemovitost, rekonstruujete nebo řešíte změnu současného úvěru, cílem je nastavit financování tak, aby pro vás bylo dlouhodobě zvládnutelné, přehledné a bezpečné.</p>
+                <div class="space-y-stack-md">
+                  <div class="border-l-2 border-secondary pl-stack-md">
+                    <h4 class="font-label-caps text-secondary uppercase mb-1">Bydlení a rekonstrukce</h4>
+                    <p class="text-body-md text-on-surface">Pomáháme zorientovat se v možnostech a projít celým procesem bez zbytečného stresu a nejistoty.</p>
+                  </div>
+                  <div class="border-l-2 border-secondary pl-stack-md">
+                    <h4 class="font-label-caps text-secondary uppercase mb-1">Finanční páka</h4>
+                    <p class="text-body-md text-on-surface">Správně nastavené využití bankovního kapitálu může výrazně zvýšit efektivitu práce s vašimi vlastními prostředky.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sidebar: Related Services -->
+        <aside class="lg:col-span-4 space-y-stack-lg">
+          <div class="bg-surface-container-highest p-stack-lg border-t-4 border-secondary">
+            <h3 class="font-headline-md text-headline-md text-primary mb-stack-md">Related Services</h3>
+            <nav class="space-y-stack-md">
+              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                <span class="font-body-md font-semibold">Správa nemovitostí</span>
+                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+              </a>
+              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                <span class="font-body-md font-semibold">Realitní služby</span>
+                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+              </a>
+              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                <span class="font-body-md font-semibold">Developerské projekty</span>
+                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+              </a>
+              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                <span class="font-body-md font-semibold">Investiční příležitosti</span>
+                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+              </a>
+            </nav>
+          </div>
+          <div class="p-stack-lg border border-outline-variant/30">
+            <h4 class="font-headline-md text-headline-md text-primary mb-stack-sm">Quarterly Insight</h4>
+            <p class="text-on-surface-variant mb-stack-md">Stáhněte si náš přehled investičních příležitostí a výnosy realitního trhu.</p>
+            <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity" href="#">
+              Download Report
+              <span class="material-symbols-outlined text-body-md">download</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+  <!-- CTA Section -->
+  <section class="bg-primary py-section-gap">
+    <div class="max-w-[1280px] mx-auto px-gutter text-center">
+      <h2 class="font-display-xl text-display-xl text-on-primary mb-stack-md">Začněte spolupráci</h2>
+      <p class="font-body-lg text-body-lg text-on-primary-container max-w-2xl mx-auto mb-stack-lg">
+        Zjistěte, jak Vám pomůžeme chránit a rozvíjet Váš kapitál prostřednictvím individuálně řízené správy majetku.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-stack-md justify-center">
+        <button class="bg-secondary text-on-secondary px-stack-lg py-stack-md font-label-caps uppercase tracking-widest hover:opacity-90 transition-all active:scale-95">
+          Svěřte kapitál do individuální péče
+        </button>
+        <button class="border border-on-primary-container text-on-primary px-stack-lg py-stack-md font-label-caps uppercase tracking-widest hover:bg-on-primary-container hover:text-primary transition-all active:scale-95">
+          Nechte si navrhnout financování
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Footer -->
+<footer class="bg-primary dark:bg-primary border-t border-primary-container py-stack-lg text-on-primary">
+  <div class="max-w-[1280px] mx-auto px-gutter grid grid-cols-1 md:grid-cols-2 gap-stack-md">
+    <div>
+      <div class="font-headline-md text-headline-md text-on-primary mb-stack-sm">AURELIUS PRIVATE</div>
+      <p class="font-body-md text-body-md text-on-primary-container max-w-sm">
+        Finanční poradenství s přehledem a jistotou. Nezávislost, transparentnost a dlouhodobé partnerství.
+      </p>
+    </div>
+    <div class="flex flex-col md:items-end gap-stack-md">
+      <nav class="flex flex-wrap gap-stack-md md:justify-end">
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Ochrana soukromí</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Obchodní podmínky</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Regulatorní info</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Cookies</a>
+        <a class="font-body-md text-body-md text-on-primary-container hover:text-secondary-fixed transition-colors" href="#">Kontakt</a>
+      </nav>
+      <div class="font-body-md text-body-md text-on-primary-container opacity-60">
+        © 2024 Finanční poradenství. Všechna práva vyhrazena.
+      </div>
+    </div>
+  </div>
+</footer>
+</body></html>
