@@ -1,0 +1,44 @@
+<svg width="900" height="1125" viewBox="0 0 900 1125" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Zajisteni rizik</title>
+  <desc id="desc">Stylizovany obrazek se stitem, grafem a kruhy symbolizujici ochranu a rizikovy management.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="1125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E2433"/>
+      <stop offset="1" stop-color="#1D4F5F"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="450" y1="230" x2="450" y2="865" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9E4E3"/>
+      <stop offset="1" stop-color="#6BB8B5"/>
+    </linearGradient>
+    <linearGradient id="line" x1="180" y1="810" x2="735" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4C95D"/>
+      <stop offset="1" stop-color="#F29F05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1125" fill="url(#bg)"/>
+
+  <circle cx="730" cy="170" r="130" fill="#2A6A78" fill-opacity="0.42"/>
+  <circle cx="160" cy="930" r="190" fill="#2F7583" fill-opacity="0.33"/>
+  <circle cx="680" cy="990" r="100" fill="#79C4C0" fill-opacity="0.2"/>
+
+  <path d="M450 230L675 300V520C675 690 574 816 450 865C326 816 225 690 225 520V300L450 230Z" fill="url(#shield)"/>
+  <path d="M450 290L620 344V519C620 662 541 761 450 806C359 761 280 662 280 519V344L450 290Z" fill="#E8FAF9" fill-opacity="0.52"/>
+
+  <g opacity="0.9">
+    <rect x="180" y="430" width="80" height="330" rx="18" fill="#7DCBC7"/>
+    <rect x="295" y="530" width="80" height="230" rx="18" fill="#7DCBC7"/>
+    <rect x="410" y="470" width="80" height="290" rx="18" fill="#7DCBC7"/>
+    <rect x="525" y="590" width="80" height="170" rx="18" fill="#7DCBC7"/>
+    <rect x="640" y="500" width="80" height="260" rx="18" fill="#7DCBC7"/>
+  </g>
+
+  <path d="M200 810L310 690L445 720L560 600L705 470" stroke="url(#line)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="200" cy="810" r="18" fill="#F9CE66"/>
+  <circle cx="310" cy="690" r="18" fill="#F9CE66"/>
+  <circle cx="445" cy="720" r="18" fill="#F9CE66"/>
+  <circle cx="560" cy="600" r="18" fill="#F9CE66"/>
+  <circle cx="705" cy="470" r="18" fill="#F9CE66"/>
+
+  <path d="M450 374L483 442H557L497 488L520 560L450 517L380 560L403 488L343 442H417L450 374Z" fill="#F6B93B"/>
+</svg>

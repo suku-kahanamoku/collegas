@@ -125,19 +125,19 @@ include 'components/main-menu.php';
               <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
           </div>
-          <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+          <div class="group order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
-              class="w-full h-full object-cover"
-              alt="Právní poradenství – odborná konzultace a dlouhodobá právní podpora"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1B1uofx_0-qQP-mclbgCQkq6BTfgpxKt1O8SsT8YmcDgSdmFJU4DkiehojifyesnA4-e5r2MJ_HV4F1M94cwldzLMAV9XO3ysElihz0YAN0OgS-ERth_kEkq2DupQYMzZeKw_mA67Dw8jd8gzyWrvk1OzrykVblIZwmnOLUW4I1J1tFGEuMNCDik4OHrtH-D5u5l1gauKuRyqg_algn38NWW0UwK0NVQdTZsP0AuioCguaC3VHDQSznmPPhJg_S-hwp-OSwO7rbU" />
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
+              alt="Zajištění rizik – štít a graf symbolizující ochranu a stabilitu"
+              src="<?= BASE_URL ?>/img/risk-shield.svg" />
           </div>
         </div>
 
         <!-- Daňové poradenství -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-          <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
+          <div class="group aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
               alt="Finanční poradce při konzultaci – odbornost, důvěra a individuální přístup"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl5N-971h-2cMzRDBs9ym4RemDHszAuUr22mg3Arp1DRL39QEZlfZ5mN82t3Bg0cZQ4npYmdvmzLVNTPrbaaM5Ft983hm9I1zb8Ms5046Cp6N8GSZHBAfC-AfBRm1RZZXnioJjubjrULdrgrEv9Qb54gW981NEKAj_yz4wHLzLZarPAk4sfDoUtwOgx_D7E06zWNkljByjwnvebCoF1dnBg0b7DZmXmTxQor-TFVhVnsv4IQAiIx-arr3BFCGVQWZDFf5r1rJnY1s" />
           </div>
@@ -193,9 +193,9 @@ include 'components/main-menu.php';
               <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
           </div>
-          <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+          <div class="group order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
               alt="Architektonický detail moderní budovy – geometrická přesnost symbolizující stabilitu"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB3ex9wSUxLroSQvcTshXAvZ2w3G94V2d6wFRbOiptcLcz3J6QFD4QKJh0xcZRH1aH8_o1BtmYaa-hqBft9MNxAHDBS3ZWj5KSGCpeNNpteBpGNiczfb9lwRjBcZGZ6ZDANcCZGqGageYcw_526l3s5HoxiTRMOWSFNrlc_VRcY4qs4w_c3xG-3-O6d_V1cPPSmExzUPcf9AO8USYGNGPdx3erBbS8iK_bswez8QXKPnThvwwiEzrlRe8DlpA_xyXbkFbjDZUZeL8" />
           </div>
@@ -203,9 +203,9 @@ include 'components/main-menu.php';
 
         <!-- Odškodnění -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-          <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
+          <div class="group aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
               alt="Odškodnění – pomoc při pracovních úrazech a pojistných událostech"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL5g7sP7VnGEv2NS7BeeskhDWOfsHKOMsTI32vlnCpg996hSOzkljoknBtlxaOJ3MsRDQEZyuTgWnBPgdkGWpQyrzXW5PBTRjufEJXZtAM8WrbcePgVUq3RNTqRM0xcDRTSxtRGpy5ZBVvqRgydaIvfzECbe646ZH2lNXA44KmsgV9yyisr5jBRru919SEYqNE4JiATHdyQ1gbVdDXzPCRuZB08EyT4S1lHAzMSmtqfEf5bgrvboevG5AhX4FJJgjPkg9_---Kmj0" />
           </div>
@@ -261,9 +261,9 @@ include 'components/main-menu.php';
               <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
           </div>
-          <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+          <div class="group order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
               alt="Realitní služby – profesionální prodej a pronájem nemovitostí"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1B1uofx_0-qQP-mclbgCQkq6BTfgpxKt1O8SsT8YmcDgSdmFJU4DkiehojifyesnA4-e5r2MJ_HV4F1M94cwldzLMAV9XO3ysElihz0YAN0OgS-ERth_kEkq2DupQYMzZeKw_mA67Dw8jd8gzyWrvk1OzrykVblIZwmnOLUW4I1J1tFGEuMNCDik4OHrtH-D5u5l1gauKuRyqg_algn38NWW0UwK0NVQdTZsP0AuioCguaC3VHDQSznmPPhJg_S-hwp-OSwO7rbU" />
           </div>
@@ -271,9 +271,9 @@ include 'components/main-menu.php';
 
         <!-- Správa nemovitostí -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-          <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
+          <div class="group aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
-              class="w-full h-full object-cover"
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
               alt="Správa nemovitostí – kompletní péče o investiční portfolio"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd8sUEVjoBvj2c-vDK9TnFdp5yDZwd_7eEx-nNFGoB25h04pu1KCei0D4KNIz4O9EtsIx1NxJJBeQrEVQraR9Qvn8A_ItvnPKMpma4pYdgEgXpWHb11eF5ugLtVJsEWahRUkOXHc1gGOUKrugGi8WC7uQ5Vl3D7ZBO75w_OvsqFpM_FoAhEtLaVmzOc0-hgTzEa28XzvvjiVoTeO_EAP1JE5enMLb5FCQOrqeCJ34qL3eDxQVhzK6FPjjeKEk9Kef0znoiMzCojQo" />
           </div>
