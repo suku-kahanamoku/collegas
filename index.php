@@ -203,7 +203,13 @@ include 'components/main-menu.php';
 
         <!-- Odškodnění -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-          <div class="order-2 md:order-1">
+          <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
+            <img
+              class="w-full h-full object-cover"
+              alt="Odškodnění – pomoc při pracovních úrazech a pojistných událostech"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL5g7sP7VnGEv2NS7BeeskhDWOfsHKOMsTI32vlnCpg996hSOzkljoknBtlxaOJ3MsRDQEZyuTgWnBPgdkGWpQyrzXW5PBTRjufEJXZtAM8WrbcePgVUq3RNTqRM0xcDRTSxtRGpy5ZBVvqRgydaIvfzECbe646ZH2lNXA44KmsgV9yyisr5jBRru919SEYqNE4JiATHdyQ1gbVdDXzPCRuZB08EyT4S1lHAzMSmtqfEf5bgrvboevG5AhX4FJJgjPkg9_---Kmj0" />
+          </div>
+          <div>
             <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Odškodnění</h2>
             <p class="text-on-surface-variant mb-stack-md">
               Odškodnění je oblast, do které se člověk dostane nečekaně – často ve chvíli, kdy řeší zdravotní,
@@ -227,23 +233,11 @@ include 'components/main-menu.php';
               <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
           </div>
-          <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
-            <img
-              class="w-full h-full object-cover"
-              alt="Odškodnění – pomoc při pracovních úrazech a pojistných událostech"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL5g7sP7VnGEv2NS7BeeskhDWOfsHKOMsTI32vlnCpg996hSOzkljoknBtlxaOJ3MsRDQEZyuTgWnBPgdkGWpQyrzXW5PBTRjufEJXZtAM8WrbcePgVUq3RNTqRM0xcDRTSxtRGpy5ZBVvqRgydaIvfzECbe646ZH2lNXA44KmsgV9yyisr5jBRru919SEYqNE4JiATHdyQ1gbVdDXzPCRuZB08EyT4S1lHAzMSmtqfEf5bgrvboevG5AhX4FJJgjPkg9_---Kmj0" />
-          </div>
         </div>
 
         <!-- Realitní služby -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-          <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
-            <img
-              class="w-full h-full object-cover"
-              alt="Realitní služby – profesionální prodej a pronájem nemovitostí"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1B1uofx_0-qQP-mclbgCQkq6BTfgpxKt1O8SsT8YmcDgSdmFJU4DkiehojifyesnA4-e5r2MJ_HV4F1M94cwldzLMAV9XO3ysElihz0YAN0OgS-ERth_kEkq2DupQYMzZeKw_mA67Dw8jd8gzyWrvk1OzrykVblIZwmnOLUW4I1J1tFGEuMNCDik4OHrtH-D5u5l1gauKuRyqg_algn38NWW0UwK0NVQdTZsP0AuioCguaC3VHDQSznmPPhJg_S-hwp-OSwO7rbU" />
-          </div>
-          <div>
+          <div class="order-2 md:order-1">
             <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Realitní služby</h2>
             <p class="text-on-surface-variant mb-stack-md">
               Realitní služby u nás nejsou jen o zprostředkování prodeje nebo pronájmu, ale o kompletním zajištění
@@ -267,11 +261,23 @@ include 'components/main-menu.php';
               <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
           </div>
+          <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+            <img
+              class="w-full h-full object-cover"
+              alt="Realitní služby – profesionální prodej a pronájem nemovitostí"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1B1uofx_0-qQP-mclbgCQkq6BTfgpxKt1O8SsT8YmcDgSdmFJU4DkiehojifyesnA4-e5r2MJ_HV4F1M94cwldzLMAV9XO3ysElihz0YAN0OgS-ERth_kEkq2DupQYMzZeKw_mA67Dw8jd8gzyWrvk1OzrykVblIZwmnOLUW4I1J1tFGEuMNCDik4OHrtH-D5u5l1gauKuRyqg_algn38NWW0UwK0NVQdTZsP0AuioCguaC3VHDQSznmPPhJg_S-hwp-OSwO7rbU" />
+          </div>
         </div>
 
         <!-- Správa nemovitostí -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-          <div class="order-2 md:order-1">
+          <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
+            <img
+              class="w-full h-full object-cover"
+              alt="Správa nemovitostí – kompletní péče o investiční portfolio"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd8sUEVjoBvj2c-vDK9TnFdp5yDZwd_7eEx-nNFGoB25h04pu1KCei0D4KNIz4O9EtsIx1NxJJBeQrEVQraR9Qvn8A_ItvnPKMpma4pYdgEgXpWHb11eF5ugLtVJsEWahRUkOXHc1gGOUKrugGi8WC7uQ5Vl3D7ZBO75w_OvsqFpM_FoAhEtLaVmzOc0-hgTzEa28XzvvjiVoTeO_EAP1JE5enMLb5FCQOrqeCJ34qL3eDxQVhzK6FPjjeKEk9Kef0znoiMzCojQo" />
+          </div>
+          <div>
             <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Správa nemovitostí</h2>
             <p class="text-on-surface-variant mb-stack-md">
               Správa nemovitostí znamená především to, že váš majetek funguje tak, jak má – bez zbytečných
@@ -293,12 +299,6 @@ include 'components/main-menu.php';
               Zažijte správu bez starostí
               <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
-          </div>
-          <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
-            <img
-              class="w-full h-full object-cover"
-              alt="Správa nemovitostí – kompletní péče o investiční portfolio"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd8sUEVjoBvj2c-vDK9TnFdp5yDZwd_7eEx-nNFGoB25h04pu1KCei0D4KNIz4O9EtsIx1NxJJBeQrEVQraR9Qvn8A_ItvnPKMpma4pYdgEgXpWHb11eF5ugLtVJsEWahRUkOXHc1gGOUKrugGi8WC7uQ5Vl3D7ZBO75w_OvsqFpM_FoAhEtLaVmzOc0-hgTzEa28XzvvjiVoTeO_EAP1JE5enMLb5FCQOrqeCJ34qL3eDxQVhzK6FPjjeKEk9Kef0znoiMzCojQo" />
           </div>
         </div>
 
