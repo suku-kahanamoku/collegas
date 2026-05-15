@@ -29,12 +29,12 @@ include '../components/main-menu.php';
   <!-- Hlavní obsah -->
   <section class="bg-surface-container-low py-section-gap">
     <div class="max-w-[1280px] mx-auto px-gutter">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-section-gap">
-        <!-- Obsah -->
-        <div class="lg:col-span-8">
-          <div class="space-y-section-gap">
-            <!-- Sekce 1 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
+      <div class="space-y-section-gap">
+        <!-- Prvni radek: Sekce 1 + Sidebar -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-section-gap">
+          <!-- Sekce 1 -->
+          <div class="lg:col-span-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-stretch h-full">
               <div class="order-2 md:order-1">
                 <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Developerské projekty</h2>
                 <p class="text-on-surface-variant mb-stack-md">
@@ -59,83 +59,83 @@ include '../components/main-menu.php';
                   <span class="material-symbols-outlined text-body-md">arrow_forward</span>
                 </a>
               </div>
-              <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
+              <div class="group order-1 md:order-2 bg-surface-container-highest overflow-hidden h-full min-h-[360px] md:min-h-full">
                 <img
-                  class="w-full h-full object-cover"
+                  class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
                   alt="Architektonický detail moderní budovy – geometrická přesnost symbolizující stabilitu"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB3ex9wSUxLroSQvcTshXAvZ2w3G94V2d6wFRbOiptcLcz3J6QFD4QKJh0xcZRH1aH8_o1BtmYaa-hqBft9MNxAHDBS3ZWj5KSGCpeNNpteBpGNiczfb9lwRjBcZGZ6ZDANcCZGqGageYcw_526l3s5HoxiTRMOWSFNrlc_VRcY4qs4w_c3xG-3-O6d_V1cPPSmExzUPcf9AO8USYGNGPdx3erBbS8iK_bswez8QXKPnThvwwiEzrlRe8DlpA_xyXbkFbjDZUZeL8"
                 />
               </div>
             </div>
-
-            <!-- Sekce 2 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
-              <div class="aspect-[4/5] bg-surface-container-highest overflow-hidden">
-                <img
-                  class="w-full h-full object-cover"
-                  alt="Finanční poradce při konzultaci – odbornost, důvěra a individuální přístup"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl5N-971h-2cMzRDBs9ym4RemDHszAuUr22mg3Arp1DRL39QEZlfZ5mN82t3Bg0cZQ4npYmdvmzLVNTPrbaaM5Ft983hm9I1zb8Ms5046Cp6N8GSZHBAfC-AfBRm1RZZXnioJjubjrULdrgrEv9Qb54gW981NEKAj_yz4wHLzLZarPAk4sfDoUtwOgx_D7E06zWNkljByjwnvebCoF1dnBg0b7DZmXmTxQor-TFVhVnsv4IQAiIx-arr3BFCGVQWZDFf5r1rJnY1s"
-                />
-              </div>
-              <div>
-                <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Investiční příležitosti</h2>
-                <p class="text-on-surface-variant mb-stack-md">
-                  Investiční příležitosti nevznikají každý den – a ještě méně těch, které dávají skutečný smysl v širším
-                  kontextu vašeho portfolia. Naším cílem není nabídnout „cokoliv, co zrovna funguje", ale vybírat a
-                  vytvářet příležitosti, které obstojí z pohledu výnosu, rizika i dlouhodobé strategie.
-                </p>
-                <p class="text-on-surface-variant mb-stack-md">
-                  Aktivně vyhledáváme projekty a investice napříč oblastmi, jako jsou nemovitosti, developerské
-                  záměry nebo další kapitálové příležitosti. Každou z nich detailně analyzujeme – z pohledu návratnosti,
-                  struktury, rizik i reálného potenciálu. Díky tomu vám předkládáme pouze ty příležitosti, za kterými si
-                  dokážeme stát a které dávají smysl nejen na papíře, ale i v praxi.
-                </p>
-                <p class="text-on-surface-variant mb-stack-md">
-                  Výsledkem je přístup k investicím, ke kterým se běžný investor často nedostane, a zároveň jistota, že
-                  každé rozhodnutí zapadá do vaší celkové strategie. Investování tak přestává být o náhodě a stává se
-                  řízeným procesem s jasným cílem – dlouhodobě růst a chránit váš kapitál.
-                </p>
-                <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
-                  Získejte přístup k investičním příležitostem
-                  <span class="material-symbols-outlined text-body-md">arrow_forward</span>
-                </a>
-              </div>
-            </div>
           </div>
+
+          <!-- Sidebar -->
+          <aside class="lg:col-span-4 space-y-stack-lg">
+            <div class="bg-surface-container-highest p-stack-lg border-t-4 border-secondary">
+              <h3 class="font-headline-md text-headline-md text-primary mb-stack-md">Související služby</h3>
+              <nav class="space-y-stack-md">
+                <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="investment-asset-management.php">
+                  <span class="font-body-md font-semibold">Péče o investiční majetek</span>
+                  <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+                </a>
+                <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                  <span class="font-body-md font-semibold">Financování</span>
+                  <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+                </a>
+                <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                  <span class="font-body-md font-semibold">Správa nemovitostí</span>
+                  <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+                </a>
+                <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
+                  <span class="font-body-md font-semibold">Realitní služby</span>
+                  <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
+                </a>
+              </nav>
+            </div>
+            <div class="p-stack-lg border border-outline-variant/30">
+              <h4 class="font-headline-md text-headline-md text-primary mb-stack-sm">Přehled projektů</h4>
+              <p class="text-on-surface-variant mb-stack-md">Stáhněte si přehled aktuálních developerských projektů a investičních příležitostí.</p>
+              <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity" href="#">
+                Stáhnout přehled
+                <span class="material-symbols-outlined text-body-md">download</span>
+              </a>
+            </div>
+          </aside>
         </div>
 
-        <!-- Sidebar -->
-        <aside class="lg:col-span-4 space-y-stack-lg">
-          <div class="bg-surface-container-highest p-stack-lg border-t-4 border-secondary">
-            <h3 class="font-headline-md text-headline-md text-primary mb-stack-md">Související služby</h3>
-            <nav class="space-y-stack-md">
-              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="investment-asset-management.php">
-                <span class="font-body-md font-semibold">Péče o investiční majetek</span>
-                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
-              </a>
-              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
-                <span class="font-body-md font-semibold">Financování</span>
-                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
-              </a>
-              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
-                <span class="font-body-md font-semibold">Správa nemovitostí</span>
-                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
-              </a>
-              <a class="group flex justify-between items-center py-stack-sm border-b border-outline-variant/50 hover:text-secondary transition-colors" href="#">
-                <span class="font-body-md font-semibold">Realitní služby</span>
-                <span class="material-symbols-outlined text-secondary transition-transform group-hover:translate-x-1">arrow_forward</span>
-              </a>
-            </nav>
+        <!-- Sekce 2 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-start">
+          <div class="group aspect-[4/5] bg-surface-container-highest overflow-hidden">
+            <img
+              class="w-full h-full object-cover grayscale transition duration-500 ease-out transform group-hover:grayscale-0 group-hover:scale-105"
+              alt="Finanční poradce při konzultaci – odbornost, důvěra a individuální přístup"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCl5N-971h-2cMzRDBs9ym4RemDHszAuUr22mg3Arp1DRL39QEZlfZ5mN82t3Bg0cZQ4npYmdvmzLVNTPrbaaM5Ft983hm9I1zb8Ms5046Cp6N8GSZHBAfC-AfBRm1RZZXnioJjubjrULdrgrEv9Qb54gW981NEKAj_yz4wHLzLZarPAk4sfDoUtwOgx_D7E06zWNkljByjwnvebCoF1dnBg0b7DZmXmTxQor-TFVhVnsv4IQAiIx-arr3BFCGVQWZDFf5r1rJnY1s"
+            />
           </div>
-          <div class="p-stack-lg border border-outline-variant/30">
-            <h4 class="font-headline-md text-headline-md text-primary mb-stack-sm">Přehled projektů</h4>
-            <p class="text-on-surface-variant mb-stack-md">Stáhněte si přehled aktuálních developerských projektů a investičních příležitostí.</p>
-            <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity" href="#">
-              Stáhnout přehled
-              <span class="material-symbols-outlined text-body-md">download</span>
+          <div>
+            <h2 class="font-headline-lg text-headline-lg text-primary mb-stack-md">Investiční příležitosti</h2>
+            <p class="text-on-surface-variant mb-stack-md">
+              Investiční příležitosti nevznikají každý den – a ještě méně těch, které dávají skutečný smysl v širším
+              kontextu vašeho portfolia. Naším cílem není nabídnout „cokoliv, co zrovna funguje", ale vybírat a
+              vytvářet příležitosti, které obstojí z pohledu výnosu, rizika i dlouhodobé strategie.
+            </p>
+            <p class="text-on-surface-variant mb-stack-md">
+              Aktivně vyhledáváme projekty a investice napříč oblastmi, jako jsou nemovitosti, developerské
+              záměry nebo další kapitálové příležitosti. Každou z nich detailně analyzujeme – z pohledu návratnosti,
+              struktury, rizik i reálného potenciálu. Díky tomu vám předkládáme pouze ty příležitosti, za kterými si
+              dokážeme stát a které dávají smysl nejen na papíře, ale i v praxi.
+            </p>
+            <p class="text-on-surface-variant mb-stack-md">
+              Výsledkem je přístup k investicím, ke kterým se běžný investor často nedostane, a zároveň jistota, že
+              každé rozhodnutí zapadá do vaší celkové strategie. Investování tak přestává být o náhodě a stává se
+              řízeným procesem s jasným cílem – dlouhodobě růst a chránit váš kapitál.
+            </p>
+            <a class="inline-flex items-center gap-stack-sm text-secondary font-label-caps uppercase hover:opacity-70 transition-opacity mt-stack-sm" href="#">
+              Získejte přístup k investičním příležitostem
+              <span class="material-symbols-outlined text-body-md">arrow_forward</span>
             </a>
           </div>
-        </aside>
+        </div>
       </div>
     </div>
   </section>
