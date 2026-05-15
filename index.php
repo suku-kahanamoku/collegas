@@ -128,8 +128,8 @@ include 'components/main-menu.php';
           <div class="order-1 md:order-2 aspect-[4/5] bg-surface-container-highest overflow-hidden">
             <img
               class="w-full h-full object-cover"
-              alt="Architektonický detail moderní budovy – geometrická přesnost symbolizující stabilitu"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB3ex9wSUxLroSQvcTshXAvZ2w3G94V2d6wFRbOiptcLcz3J6QFD4QKJh0xcZRH1aH8_o1BtmYaa-hqBft9MNxAHDBS3ZWj5KSGCpeNNpteBpGNiczfb9lwRjBcZGZ6ZDANcCZGqGageYcw_526l3s5HoxiTRMOWSFNrlc_VRcY4qs4w_c3xG-3-O6d_V1cPPSmExzUPcf9AO8USYGNGPdx3erBbS8iK_bswez8QXKPnThvwwiEzrlRe8DlpA_xyXbkFbjDZUZeL8" />
+              alt="Právní poradenství – odborná konzultace a dlouhodobá právní podpora"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1B1uofx_0-qQP-mclbgCQkq6BTfgpxKt1O8SsT8YmcDgSdmFJU4DkiehojifyesnA4-e5r2MJ_HV4F1M94cwldzLMAV9XO3ysElihz0YAN0OgS-ERth_kEkq2DupQYMzZeKw_mA67Dw8jd8gzyWrvk1OzrykVblIZwmnOLUW4I1J1tFGEuMNCDik4OHrtH-D5u5l1gauKuRyqg_algn38NWW0UwK0NVQdTZsP0AuioCguaC3VHDQSznmPPhJg_S-hwp-OSwO7rbU" />
           </div>
         </div>
 
